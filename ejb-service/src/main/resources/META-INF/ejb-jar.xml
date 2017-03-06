@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ejb-jar xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/ejb-jar_3_0.xsd"
+         version="3.0">
+    <enterprise-beans>
+        <session>
+            <ejb-name>SudokuSolverSessionBean</ejb-name>
+            <mapped-name>ejb/SudokuSolverSessionBean</mapped-name>
+            <business-local>com.pb.codechallenge.ejb.SudokuSolverSessionBeanLocal</business-local>
+            <business-remote>com.pb.codechallenge.ejb.SudokuSolverSessionBeanRemote</business-remote>
+            <ejb-class>com.pb.codechallenge.ejb.SudokuSolverSessionBean</ejb-class>
+            <session-type>Stateless</session-type>
+            <transaction-type>Container</transaction-type>
+        </session>
+    </enterprise-beans>
+</ejb-jar>
