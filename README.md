@@ -1,4 +1,4 @@
-# Sudoku-solver
+i# Sudoku-solver
 jee solution for compiling 9*9 sudoku puzzel.the solution contains following components 
 web-client,ejb-parent,ejb-service.The project is maven based.Use the Glassfish 4 runtime.
 # Project Structure
@@ -26,6 +26,14 @@ glassfish4/bin/asadmin start-domain
 ```
 loging into admin console . (eg http://localhost:4848/)
 upload the ear as a application.
+### How to comple
+this need maven 3 or higher version. once clone the project ,navigate to the project folder. run the following maven command.
+```sh
+git clone https://github.com/Nuwan-Walisundara/sudoku-solver.git
+cd sudoku-solver/
+mvn clen install
+```
+the ear file assembled into the ear-application/target folder.( the default file name is ear-application-1.0-SNAPSHOT.ear)
 
 ### How to run
 sample curl as follows:
@@ -39,3 +47,4 @@ curl http://localhost:8080/sud,8,2,5,9er/query?input=4,3,5,2,6,9,7,8,1,6,8,2,5,7
 > {"error":"cannot be completed"}
 
 ```
+
