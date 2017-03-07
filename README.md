@@ -1,4 +1,4 @@
-i# Sudoku-solver
+# Sudoku-solver
 jee solution for compiling 9*9 sudoku puzzel.the solution contains following components 
 web-client,ejb-parent,ejb-service.The project is maven based.Use the Glassfish 4 runtime.
 # Project Structure
@@ -47,4 +47,10 @@ curl http://localhost:8080/sud,8,2,5,9er/query?input=4,3,5,2,6,9,7,8,1,6,8,2,5,7
 > {"error":"cannot be completed"}
 
 ```
-
+### Test cases
+Five test cases written using junit and they are at the ejb-service.
+*  [testApp1] - test the solusion with filed numbers and rest are represented as charater 'x'.This test fail due to invalid number of chars.
+*   [testApp2] - Correct solution/ happy path
+*   [testApp3] -test the rule "Any column contains more than one of the same number from 1 to 9"
+*   [testApp4] -test the rule "Any row contains more than one of the same number from 1 to 9"
+*   [testApp4] -test the rule "Any 3×3 grid contains more than one of the same number from 1 to 9"
