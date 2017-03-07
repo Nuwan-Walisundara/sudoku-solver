@@ -1,3 +1,10 @@
+/*******************************************************************
+*  ERROR
+* Author  : Nuwan Walisundara
+* Created :  4-03-2017
+*
+* Description : Contains all the errors
+*******************************************************************/
 package com.pb.codechallenge.exception;
 
 public enum ERROR {

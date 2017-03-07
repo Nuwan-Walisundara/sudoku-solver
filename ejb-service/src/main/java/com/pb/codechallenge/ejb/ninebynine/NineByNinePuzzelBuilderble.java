@@ -1,3 +1,10 @@
+/*******************************************************************
+*  NineByNinePuzzelBuilderble
+* Author  : Nuwan Walisundara
+* Created :  4-03-2017
+*
+* Description : Concrete implementation of 9 * 9
+*******************************************************************/
 package com.pb.codechallenge.ejb.ninebynine;
 
 import com.pb.codechallenge.ejb.PuzzelBuilderble;
@@ -36,9 +43,9 @@ public class NineByNinePuzzelBuilderble implements PuzzelBuilderble {
 
 	@Override
 	public SolutionDTO getResult() throws SudokuException {
-	 	_rowValidator.validate();
-		_columnValidator.validate(); 
-		_3X3Validator.validate();
+	 	_rowValidator.validate(); //validate row by row 
+		_columnValidator.validate();  //validate column by column
+		_3X3Validator.validate(); //validate 3*3 cells
 		SolutionDTO solution= new SolutionDTO();
 		
 		solution.setSolution(_puzzle.toString());

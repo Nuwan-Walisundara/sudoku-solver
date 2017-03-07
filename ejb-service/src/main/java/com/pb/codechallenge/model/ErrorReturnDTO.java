@@ -1,3 +1,10 @@
+/*******************************************************************
+*  ErrorReturnDTO
+* Author  : Nuwan Walisundara
+* Created :  
+*
+* Description of the class or method purpose
+*******************************************************************/
 package com.pb.codechallenge.model;
 
 import javax.xml.bind.annotation.XmlRootElement;

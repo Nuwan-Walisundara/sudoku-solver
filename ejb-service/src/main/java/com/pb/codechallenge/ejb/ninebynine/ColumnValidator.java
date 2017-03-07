@@ -1,3 +1,10 @@
+/*******************************************************************
+*  ColumnValidator
+* Author  : Nuwan Walisundara
+* Created :  4-03-2017
+*
+* Description : Validation rule for cheking similor items in same column
+*******************************************************************/
 package com.pb.codechallenge.ejb.ninebynine;
 
 import com.pb.codechallenge.exception.ERROR;

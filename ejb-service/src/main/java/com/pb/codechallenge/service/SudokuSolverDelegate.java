@@ -1,3 +1,10 @@
+/*******************************************************************
+*  SudokuSolverDelegate
+* Author  : Nuwan Walisundara
+* Created :  4-03-2017
+*
+* Description : Delegateter represents the ejb BL and esy for lookup
+*******************************************************************/
 package com.pb.codechallenge.service;
 
 import java.util.Properties;

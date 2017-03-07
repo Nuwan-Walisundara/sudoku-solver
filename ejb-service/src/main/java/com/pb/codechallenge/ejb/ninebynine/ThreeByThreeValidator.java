@@ -1,3 +1,10 @@
+/*******************************************************************
+*  ThreeByThreeValidator
+* Author  : Nuwan Walisundara
+* Created :  4-03-2017
+*
+* Description : Validation rule for cheking similor items in 3*3 cells
+*******************************************************************/
 package com.pb.codechallenge.ejb.ninebynine;
 
 import com.pb.codechallenge.exception.ERROR;

@@ -1,3 +1,10 @@
+/*******************************************************************
+*  SudokuSolverRestService
+* Author  : Nuwan Walisundara
+* Created :  4-03-2017
+*
+* Description : rest service ,exposing the sudoku solver
+*******************************************************************/
 package com.pb.codechallenge.ui.rest;
 
 import javax.ws.rs.GET;
@@ -11,10 +18,10 @@ import com.pb.codechallenge.ejb.Returnable;
 import com.pb.codechallenge.model.SolutionDTO;
 import com.pb.codechallenge.service.SudokuSolverDelegate;
 
-@Path("/hello")
+@Path("/query")
 public class SudokuSolverRestService   {
 	@GET
-	@Path("/query")
+	//@Path("/query")
 	@Produces(MediaType.APPLICATION_JSON)
 	public Response getMsg(@QueryParam("input") String msg) {
 

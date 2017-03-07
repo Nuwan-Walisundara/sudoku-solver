@@ -1,3 +1,10 @@
+/*******************************************************************
+*  PuzzelFactory
+* Author  : Nuwan Walisundara
+* Created :  4-03-2017
+*
+* Description : Depending on the puzzel type the factory load the implimentaion
+*******************************************************************/
 package com.pb.codechallenge.ejb;
 
 import com.pb.codechallenge.ejb.ninebynine.NineByNinePuzzelBuilderble;

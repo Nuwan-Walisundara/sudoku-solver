@@ -1,3 +1,10 @@
+/*******************************************************************
+*  SolutionDTO
+* Author  : Nuwan Walisundara
+* Created :  4-03-2017
+*
+* Description : object to hold the solution
+*******************************************************************/
 package com.pb.codechallenge.model;
 
 import javax.xml.bind.annotation.XmlRootElement;
