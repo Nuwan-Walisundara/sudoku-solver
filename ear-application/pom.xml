@@ -19,6 +19,12 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-ear-plugin</artifactId>
 				<configuration>
+					<defaultLibBundleDir>lib</defaultLibBundleDir>
+					<archive>
+						<manifest>
+							<addClasspath>true</addClasspath>
+						</manifest>
+					</archive>
 					<modules>
 						<webModule>
 							<groupId>com.pb.cc.sudokusolver</groupId>
@@ -32,10 +38,12 @@
 						<jarModule>
 							<groupId>org.apache.commons</groupId>
 							<artifactId>commons-lang3</artifactId>
+							<includeInApplicationXml>true</includeInApplicationXml>
 						</jarModule>
 						<jarModule>
 							<groupId>commons-logging</groupId>
 							<artifactId>commons-logging</artifactId>
+							<includeInApplicationXml>true</includeInApplicationXml>
 						</jarModule>
 					</modules>
 				</configuration>

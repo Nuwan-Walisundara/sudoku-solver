@@ -153,11 +153,15 @@ class Puzzle {
 	}
 	public String toString(){
 		 String retunStr=null;
-		 
-		 
-		 for(byte x=0;x<9;x++){
-			 retunStr += StringUtils.join(sudoku[x], ',');
-		 }
+		 retunStr = StringUtils.join(sudoku[0], ',')+","
+				 	+  StringUtils.join(sudoku[1], ',')+","
+				 	+ StringUtils.join(sudoku[2], ',')+","
+				 	+ StringUtils.join(sudoku[3], ',')+","
+				 	+ StringUtils.join(sudoku[4], ',')+","
+				 	+ StringUtils.join(sudoku[5], ',')+","
+				 	+ StringUtils.join(sudoku[6], ',')+","
+				 	+ StringUtils.join(sudoku[7], ',')+","
+				 	+ StringUtils.join(sudoku[8], ',');
 		 return retunStr;
 	}
 }
